@@ -1,5 +1,11 @@
 # Lab 13 - Caesar Cipher (user-defined functions)
 
+def getAverage(*numbers):
+    return sum(numbers) / len(numbers) if numbers else 0
+hasil = getAverage(10,20,30,40,50)
+print(hasil)
+
+
 
 # Exercise 1: menggandakan alfabet agar pergeseran tidak keluar batas
 def getDoubleAlphabet(alphabet):

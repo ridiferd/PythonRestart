@@ -7,6 +7,7 @@ def readJsonFile(fileName):
     try:
         with open(fileName) as json_file:
             data = json.load(json_file)
+            print("berhasil berhasil berhasil hore")
     except IOError:
         print("Could not read file")
     return data

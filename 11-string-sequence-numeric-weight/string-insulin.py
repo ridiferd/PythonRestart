@@ -22,6 +22,7 @@ print(preproInsulin)
 # (one-liner):
 print("The sequence of human insulin, chain a: " + aInsulin)
 
+print(insulin)
 # Calculating the molecular weight of insulin
 # Creating a list of the amino acid (AA) weights
 aaWeights = {'A': 89.09, 'C': 121.16, 'D': 133.10, 'E': 147.13, 'F': 165.19,
